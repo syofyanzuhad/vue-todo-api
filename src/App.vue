@@ -20,7 +20,7 @@
               class="h-4 w-4 text-blue-500 rounded" />
             <span :class="{ 'line-through text-gray-500': todo.completed }">{{ todo.title }}</span>
           </label>
-          <button @click="deleteTodo(todo.id)" class="text-red-500 hover:text-red-700">x</button>
+          <button @click="deleteTodo(todo.id)" class="text-red-500 cursor-pointer hover:text-red-700">x</button>
         </li>
       </ul>
     </div>
